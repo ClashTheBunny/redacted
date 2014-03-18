@@ -9,21 +9,17 @@ Installation
 
 To run:
 
-    $ git clone https://github.com/doctorpangloss/redacted.git
-    $ curl https://install.meteor.com | sh
-    $ cd redacted
-    $ meteor
+    $ git clone https://github.com/ClashTheBunny/redacted.git
+    $ git clone https://github.com/meteor/meteor.git
+    $ cd meteor
+    $ git checkout tags/v0.5.2
+    $ cd ../redacted
+    $ ../meteor/meteor
 
 Visit http://localhost:3000. You will need API keys for Facebook and Google.
 
 If you'd like to run it on the Internet, try
 
-    $ meteor deploy special-redacted.meteor.com
+    $ ../meteor/meteor deploy special-redacted.meteor.com
 
 And visit http://special-redacted.meteor.com
-
-Otherwise, check out
-
-http://redacted.meteor.com
-
-for the latest version deployed to the web.
